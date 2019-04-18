@@ -1,0 +1,30 @@
+- Ai chưa có git thì cài git vào máy rồi thông báo danh tính cho git (xem hướng dẫn trên mạng). Cái này yêu cầu có tài khoản github
+- Vòa email xác nhận mail
+-  Vào project trên git hub chọn clone or dowload rồi lấy link
+- Vào thư mục muốn dowload
+- Mở phần mềm git vừa cài lên bằng cách nhấn chuột phải chọn gitbash
+- nhập git clone + Đường dẫn vừa coppy rồi nhấn ok
+- Xóa tất cả các thư mục vừa mới clone về sau đó Dán tất cả thư mục trong CV vào
+- Cập nhật code lại lên github
+- thực hiện cập nhật code theo các bước sau
+1: git status
+2: nếu thông báo Already thỳ bỏ qua -> kết thúc
+3: nếu có xuất hiện các file chữ màu đỏ thì tiếp tục b4
+4: git add *
+5: git status
+6: git commit -m "ghi chú nếu có"
+7: git push
+8: điên tên trên github và mật khẩu
+9: hoàn thành
+ - Mỗi lần muốn code phải git pull code về trước bằng cú pháp git pull
+
+ -------------------------------------
+ CÁC TASK CÁ NHÂN
+ - Thu
+ 1:viết sửa code phần nội dung trong trong thư mục resources/views/detail/detail.blade.php
+ 2: Nếu thêm css thì thêm vô file public/CV/jackson/css/detail.css (đã có sẳn)
+
+- Chương 
+1: Viết code phần header trong thư mục resources/views/layout/header.blade.php viết css trong file public/CV/jackson/css/header.css (đã có sẳn)
+2: Viết code phần footer trong thư mục resources/views/layout/footer.blade.php viết css trong file public/CV/jackson/css/footer.css (đã có sẳn)
+3: Viết code phần các CV liên quan trong thư mục resources/views/detail/related.blade.php viết css trong file public/CV/jackson/css/related.css (đã có sẳn)
