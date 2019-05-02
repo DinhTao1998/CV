@@ -1,9 +1,173 @@
-#header
+.header
 {
-	height:100px;
+	height: 130px;
 	width:100%;
 	z-index:10001;
-	background: black;
+	background-color: #0091cf!important;
 	position:fixed;
-	top:0px;
+	padding:1% 0;
+}
+
+
+.wrap{
+	width:100%;
+	margin:0 auto;
+	-moz-transition:all .2s linear;
+	-webkit-transition:all .2s linear; 
+	-o-transition:all .2s linear; 
+	-ms-transition:all .2s linear;
+}
+
+.top-left {
+	width: 100%;
+	float: none;
+}
+
+/* .logo{
+	height: 80px;
+	width: 110px;
+	float:left;
+	margin:10px 0px 0px 60px;
+} */
+.navbar-logo
+{
+	height: 110px;
+	width: 150px;
+	float:left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.menu,ul{
+	width: 80%;
+	height: 40px;
+	text-align: right;
+
+	list-style: none;
+}
+
+.menu,ul,li,
+{
+	
+	line-height: 40px;
+	padding:0px 10px;
+	margin:0px;
+	}
+
+.menu,ul,li,a
+{
+	display:inline-table;
+	color: #fff;
+	margin-left:20px;
+	font-size: 103%;
+	
+}
+.menu,ul,li,a:hover{
+	color: #333;
+}
+.tab-content
+{
+	padding-left: 40px;
+	width: 80%;
+	float:right;
+	color: #0080b7;
+	border-radius: 0 4px 4px 4px;
+	position: relative;
+	border: none;
+	padding-top: 0px;
+}
+
+.filter-head
+{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.filter-head .head
+{
+	margin-right: 10px;
+}
+
+.filter-head .head-1
+{
+	width: 600px;
+}
+
+.autocomplete
+{
+	position: relative;
+}
+
+
+.head-2 
+{
+	width: 300px;
+}
+
+.select .input_search
+{
+	padding-right: 100px;
+	margin-right: 200px;
+}
+
+.box_search .input_search
+{
+	padding-left: 10px;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	background: #fff;
+}
+
+.form-control
+{
+	padding: 6px 12px;
+	height: 45px;
+	font-size: 13px;
+	margin: 5px  20px;
+}
+
+.filter-head .head-3 .btn-search {
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 5px 0px 0px 15px;
+    height: 45px;
+}
+
+
+button, input, select, textarea
+{
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+input, textarea, select, button
+{
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+}
+
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }

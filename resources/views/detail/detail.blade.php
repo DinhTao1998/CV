@@ -1,4 +1,4 @@
-<div id="colorlib-page" style="margin-top:100px; width:80%; float:left">
+<div id="colorlib-page" style="margin-top:150px; width:80%; float:left">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="top:100px"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
