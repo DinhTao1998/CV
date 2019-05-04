@@ -41,7 +41,7 @@
 }
 
 
-.menu,ul{
+.menu,ul.ul-menu{
 	width: 80%;
 	height: 40px;
 	text-align: right;
@@ -49,7 +49,7 @@
 	list-style: none;
 }
 
-.menu,ul,li,
+.menu,ul.ul-menu,li,
 {
 	
 	line-height: 40px;
@@ -57,7 +57,7 @@
 	margin:0px;
 	}
 
-.menu,ul,li,a
+.menu,ul.ul-menu,ul.ul-menu li,a
 {
 	display:inline-table;
 	color: #fff;

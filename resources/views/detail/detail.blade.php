@@ -39,7 +39,7 @@
 
 										<div class="person_information" style="line-height: 2; padding-left: -20px;">
 											<div class="title" style="width: 180px; float: left; font-weight: bold;">
-			                                    <ul>
+			                                    <ul style="list-style-type:none; padding-left:0">
 			                                        <li>Birthday</li>
 			                                        <li>Sex</li>
 			                                        <li>Marital Status</li>
