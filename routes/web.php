@@ -18,3 +18,7 @@ Route::get('index',[
 	'as'=> 'index',
 	'uses'=>'CVController@getIndex'
 ]);
+Route::get('homepage',[
+	'as'=> 'homepage',
+	'uses'=>'CVController@getHomepage'
+]);

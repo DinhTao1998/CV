@@ -10,4 +10,9 @@ class CVController extends Controller
 
     	return view('detail.index');
     }
+
+    public function getHomepage(){
+
+    	return view('shoppage.index');
+    }
 }

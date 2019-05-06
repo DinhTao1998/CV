@@ -1,0 +1,11 @@
+.row-header{
+	margin-left:-15px;
+	margin-right:-15px;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1170px;
+}
+#amount{
+	width:212px;
+}

@@ -1,6 +1,6 @@
 <div class="header">
     <div class="container">
-        <div class="row">
+        <div class="row-header">
             <!-- <div class="col-4">
                 <div class="logo">
                     <a href="public/CV/jackson/index.html">
