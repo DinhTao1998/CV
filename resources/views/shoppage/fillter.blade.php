@@ -1,21 +1,33 @@
-<div class="col-md-3 order-1 mb-5 mb-md-0" style="padding-top: 80px">
+<div class="col-lg-3 col-xs-4 order-1 mb-5 mb-md-0" style="padding-top: 80px; background: white">
             <div class="border p-4 rounded mb-4">
-              <h3 class="mb-3 h6 text-uppercase text-black d-block">Categories</h3>
-              <ul class="list-unstyled mb-0">
-                <li class="mb-1"><a href="#" class="d-flex"><span>Men</span> <span class="text-black ml-auto">(2,220)</span></a></li>
-                <li class="mb-1"><a href="#" class="d-flex"><span>Women</span> <span class="text-black ml-auto">(2,550)</span></a></li>
-                <li class="mb-1"><a href="#" class="d-flex"><span>Children</span> <span class="text-black ml-auto">(2,124)</span></a></li>
-              </ul>
+              <h3 class="mb-3 h6 text-uppercase text-black d-block">Vị Trí</h3>
+              <form class="form">
+                <div class="inputGroup">
+                  <input id="option1" name="option1" type="checkbox"/>
+                  <label style="font-weight: 100" for="option1">TP.Hồ Chí Minh</label>
+                </div>
+
+                <div class="inputGroup">
+                  <input id="option2" name="option2" type="checkbox"/>
+                  <label for="option2" style="font-weight: 100">Hà Nội</label>
+                </div>
+                {{-- <div class="inputGroup">
+                  <input id="option3" name="option3" type="checkbox"/>
+                  <label for="option3" style="font-weight: 100">Khác</label>
+                </div> --}}
+              </form>
             </div>
 
             <div class="border p-4 rounded mb-4">
               <div class="mb-4">
-                <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Price</h3>
-                <div id="slider-range" class="border-primary"></div>
-                <input type="text" name="text" id="amount" class="form-control border-0 pl-0 bg-white" disabled="" />
+                <div>
+                <h3 class="mb-3 h6 text-uppercase text-black d-block gpa">GPA > <span id="gpa"></span></h3>
+                {{-- <div id="slider-range" class="border-primary"></div>
+                <input type="text" name="text" id="amount" class="form-control border-0 pl-0 bg-white" disabled="" /> --}}
+                <input type="range" min="0" max="10" id="value-gpa" value="5" speed="0.1" class="range blue" style="width: 80%" />
               </div>
 
-              <div class="mb-4">
+              {{-- <div class="mb-4">
                 <h3 class="mb-3 h6 text-uppercase text-black d-block">Size</h3>
                 <label for="s_sm" class="d-flex">
                   <input type="checkbox" id="s_sm" class="mr-2 mt-1"> <span class="text-black">Small (2,319)</span>
@@ -42,7 +54,7 @@
                 <a href="#" class="d-flex color-item align-items-center" >
                   <span class="bg-primary color d-inline-block rounded-circle mr-2"></span> <span class="text-black">Purple (1,075)</span>
                 </a>
-              </div>
+              </div> --}}
 
             </div>
           </div>

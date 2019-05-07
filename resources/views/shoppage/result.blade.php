@@ -1,13 +1,4 @@
-
-<div class="col-md-7 col-lg-9 order-2" style="background: white">
-
-            <div class="row row-title">
-              <div class="col-md-12 mb-5">
-                <div class="float-md-left mb-4"><h3 class="text-black">Danh Sách Ứng Viên</h3></div>
-              </div>
-            </div>
-            <div class="row mb-5 filtersearch">
-              @foreach($data as $d)
+ @foreach($data as $d)
               <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6 mb-4" data-aos="fade-up">
                 <div class=" border-unit">
                   <figure class="CV-image">
@@ -33,24 +24,3 @@
                 </div>
               </div>
               @endforeach
-              
-              {{-- </div>
-                                   <div class="row link" style="width: 520px; margin-left: 225px; margin-right: -15px;">{!! $data->links() !!}</div> --}}
-
-            </div>
-            <div class="row" data-aos="fade-up">
-              <div class="col-md-12 text-center">
-                <div class="site-block-27">
-                 {{--  <ul>
-                    <li><a href="#">&lt;</a></li>
-                    <li class="active"><span>1</span></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">&gt;</a></li>
-                  </ul> --}}
-                </div>
-              </div>
-            </div>
-          </div>

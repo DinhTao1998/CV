@@ -11,7 +11,7 @@
 	<div class="site-section" style="padding-top: 140px">
         <div class="container">
             <div class="row mb-5">
-            	@include('shoppage.content')
+                @include('shoppage.content')
             	@include('shoppage.fillter')
             </div>
         </div>
