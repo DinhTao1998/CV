@@ -13,7 +13,7 @@
        </div>
             <div class="wrap">
                 <div class="menu">
-                    <ul>
+                    <ul class="ul-menu">
                         <li>
                             <a href="#">
                                 <i class="icon-home">

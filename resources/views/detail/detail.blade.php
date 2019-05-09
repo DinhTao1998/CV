@@ -1,22 +1,21 @@
-<div id="colorlib-page" style="margin-top:150px; width:80%; float:left">
+<div id="colorlib-page" style="margin-top:130px; width:80%; float:left">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="top:100px"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="height: 400px">
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="height: 400px; overflow-y: hidden;">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(CV/jackson/images/about.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Jackson Ford</a></h1>
-				<span class="position"><a href="#">UI/UX/Designer</a> in Philippines</span>
+				<span class="position menu-2"><a href="#">UI/UX/Designer</a> in Philippines</span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
+				<div id="navbar" class="collapse menu-2-2">
 					<ul>
 						<li><a href="#" data-nav-section="about">About</a></li>						
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						<li><a href="#" data-nav-section="projects">Projects</a></li>
+						<li><a href="#" data-nav-section="hobbies">Hobbies</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 					<ul><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></ul>
@@ -37,9 +36,9 @@
 										<h4 class="job-name"><strong>UI/UX/Designer</strong></h4>
 										<p style="text-align: justify;">My name is Jackson Ford. I am 32 years old. Lorem ipsum dolor sit amet, consectetur ascing elits, sed do eiusmod tempor incidunt ut labore et dolore mafgna aliqua. Ut enim ad mini vniam quis nerci, tation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis autes irure dolor in reprehenderit in etrs voluptate velit esse cillum dolore eu fugiat nulla pariatur. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below.</p>
 
-										<div class="person_information" style="line-height: 2; padding-left: -20px;">
-											<div class="title" style="width: 180px; float: left; font-weight: bold;">
-			                                    <ul>
+										<div class="person-infor">
+											<div class="title" data-animate-effect="fadeInLeft">
+			                                    <ul  style="list-style: none; padding-left: 0;">
 			                                        <li>Birthday</li>
 			                                        <li>Sex</li>
 			                                        <li>Marital Status</li>
@@ -49,7 +48,7 @@
 			                                        <li>Email</li>		                                       
 			                                    </ul>
 		                                    </div>
-		                                    <div class="infor" style="width: 500px; float: left;">
+		                                    <div class="infor" data-animate-effect="fadeInLeft">
 			                                    <ul style="list-style: none;">
 			                                        <li class="birthday">24/01/1991</li>
 			                                        <li class="sex">Male</li>
@@ -68,56 +67,16 @@
 							</div>
 							<div class="row">	
 								<div class="col-md-12">						
-									<span class="icon2" style=" margin: 0 30px 0 0;
-															    font-size: 22px;
-															    color: #333333;
-															    width: 40px;
-															    height: 40px;
-															    text-align: center;
-															    border-radius: 2px;
-															    border: 2px solid #eeeeee;
-															    float: left;">
-															    <a href="#" class="fa"><i class="icon-social-facebook" style="color: #000000"></i></a></span>
-									<span class="icon2" style=" margin: 0 30px;
-															    font-size: 22px;
-															    color: #333333;
-															    width: 40px;
-															    height: 40px;
-															    text-align: center;
-															    border-radius: 2px;
-															    border: 2px solid #eeeeee;
-															    float: left;">
-															    <a href="#" class="tw"><i class="icon-social-twitter" style="color: #000000"></i></a></span>
-									<span class="icon2" style=" margin: 0 30px;
-															    font-size: 22px;
-															    color: #333333;
-															    width: 40px;
-															    height: 40px;
-															    text-align: center;
-															    border-radius: 2px;
-															    border: 2px solid #eeeeee;
-															    float: left;">
-															    <a href="#" class="sky"><i class="icon-social-skype" style="color: #000000"></i></a></span>
-									<span class="icon2" style=" margin: 0 30px;
-															    font-size: 22px;
-															    color: #333333;
-															    width: 40px;
-															    height: 40px;
-															    text-align: center;
-															    border-radius: 2px;
-															    border: 2px solid #eeeeee;
-															    float: left;">
-															    <a href="#" class="lik"><i class="icon-social-linkedin" style="color: #000000"></i></a></span>
-									<span class="icon2" style=" margin: 0 30px;
-															    font-size: 22px;
-															    color: #333333;
-															    width: 40px;
-															    height: 40px;
-															    text-align: center;
-															    border-radius: 2px;
-															    border: 2px solid #eeeeee;
-															    float: left;">
-															    <a href="#" class="lik"><i class="icon-social-dribbble" style="color: #000000"></i></a></span>
+									<span class="icon2">
+									<a href="#" class="fa"><i class="icon-social-facebook"></i></a></span>
+									<span class="icon2">
+									<a href="#" class="tw"><i class="icon-social-twitter"></i></a></span>
+									<span class="icon2">
+									<a href="#" class="sky"><i class="icon-social-skype"></i></a></span>
+									<span class="icon2">
+									<a href="#" class="lik"><i class="icon-social-linkedin"></i></a></span>
+									<span class="icon2">
+									<a href="#" class="lik"><i class="icon-social-dribbble"></i></a></span>
 								</div>		
 							</div>							
 						</div>
@@ -241,61 +200,75 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6" data-animate-effect="fadeInRight" style="float: right;">
+						<div class="col-md-12">
 							<div class="timeline-centered">
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					         <article class="timeline-entry animate-box">
 					            <div class="timeline-entry-inner">
 
 					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
+					                  <i class="icon-book"></i>
 					               </div>
 
-					               <div class="timeline-label">
-					                  <div class="edu-item" style="line-height: 0; margin-bottom: 60px;">
+					               <div class="timeline-label" style="width: 50%">
+					                  <div class="edu-item" style="line-height: 0;">
 										<p><small>2010 - 2012</small></p>
 										<h4>MA Product Design</h4>
 										<p><strong>University of California</strong></p>
 										<p>United Kingdom, London</p>
+										<p><strong>GPA:8.2</strong></p>
 									  </div>
 					               </div>
 					            </div>
-					         </article>
-							</div>
-						</div>
+					         </article>					
 
-						<div class="col-md-6" data-animate-effect="fadeInRight" style="float: left; margin-top: 130px;">
-							<div class="timeline-centered">
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					         <article class="timeline-entry animate-box">
 					            <div class="timeline-entry-inner">
 
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-book"></i>
 					               </div>
 
-					               <div class="timeline-label">
-					                  <div class="edu-item" style="line-height: 0; margin-bottom: 60px;">						
+					               <div class="timeline-label" style="width: 50%">
+					                  <div class="edu-item" style="line-height: 0;">						
 										<p><small>2007 - 2010</small></p>
 										<h4>Business marketing course</h4>
 										<p><strong>Royal Academy of Business</strong></p>
-										<p>United Kingdom, London</p>									
+										<p>United Kingdom, London</p>		
+										<p><strong>GPA:7.9</strong></p>						
 									  </div>
 					               </div>
 					            </div>
-					         </article>
-							
-						</div>
-							
+					         </article>					   
 
-							<div class="edu-item" style="line-height: 0; margin-bottom: 60px;">
-							<p><small>2002 - 2006</small></p>
-							<h4>BA (Hons) Design</h4>
-							<p><strong>University of Michigan</strong></p>
-							<p>United Kingdom, London</p>
-							</div>
-						</div>
-					</div>					
+					         <article class="timeline-entry animate-box">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-book"></i>
+					               </div>
+
+					               <div class="timeline-label" style="width: 50%">
+					                  <div class="edu-item" style="line-height: 0;">									
+										<p><small>2002 - 2006</small></p>
+										<h4>BA (Hons) Design</h4>
+										<p><strong>University of Michigan</strong></p>
+										<p>United Kingdom, London</p>
+										<p><strong>GPA:8.8</strong></p>
+									  </div>				              
+					           	   </div>
+					           	</div>
+					         </article>	
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+
+							</div>	
+						</div>				
 				</div>
 			</section>
 
@@ -385,16 +358,16 @@
 				</div>
 			</section>
 
-			<section class="colorlib-services" data-section="services">
+			<section class="colorlib-services" data-section="projects">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+							<h2 class="colorlib-heading">MY PROJECTS</h2>
 						</div>
 					</div>
 					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-6 text-center animate-box">
 							<div class="services color-1">
 								<span class="icon">
 									<i class="icon-bulb"></i>
@@ -405,7 +378,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-6 text-center animate-box">
 							<div class="services color-2">
 								<span class="icon">
 									<i class="icon-data"></i>
@@ -416,7 +389,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-6 text-center animate-box">
 							<div class="services color-3">
 								<span class="icon">
 									<i class="icon-phone3"></i>
@@ -427,7 +400,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-6 text-center animate-box">
 							<div class="services color-4">
 								<span class="icon">
 									<i class="icon-layers2"></i>
@@ -438,7 +411,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-6 text-center animate-box">
 							<div class="services color-5">
 								<span class="icon">
 									<i class="icon-data"></i>
@@ -449,7 +422,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						<div class="col-md-6 text-center animate-box">
 							<div class="services color-6">
 								<span class="icon">
 									<i class="icon-phone3"></i>
@@ -464,193 +437,28 @@
 				</div>
 			</section>
 
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
+			<section data-section="hobbies">
+				<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+					<div class="overlay"></div>
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12 col-md-offset-12 col-md-pull-12 animate-box" data-animate-effect="fadeInLeft">
+								<h2 class="colorlib-heading text-center animate-box" style="color: #ffffff;">MY HOBBIES</h2>
+							</div>					
+							<div class="col-md-4 animate-box text-center">							
+								<p style="color: #ffffff;font-size: 130%;"><strong>5 km joking</strong></p>
 							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
+							<div class="col-md-4 animate-box text-center">							
+								<p style="color: #ffffff;font-size: 130%;"><strong>learning daily skill</strong></p>
 							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+							<div class="col-md-4 animate-box text-center">							
+								<p style="color: #ffffff;font-size: 130%;"><strong>learning English</strong></p>
+							</div>										
 						</div>
 					</div>
 				</div>
 			</section>
-
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-
+			
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -666,7 +474,7 @@
 									<i class="icon-globe-outline"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
+									<p>info@domain.com</p>
 								</div>
 							</div>
 
@@ -684,7 +492,7 @@
 									<i class="icon-phone"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
+									<p>123 456 7890</p>
 								</div>
 							</div>
 						</div>
@@ -705,7 +513,7 @@
 											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 										</div>
 										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message" style="margin-left: 20px">
 										</div>
 									</form>
 								</div>
