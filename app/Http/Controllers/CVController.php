@@ -22,4 +22,9 @@ class CVController extends Controller
     	$data =thongtin::where('gpa','>=',$key)->paginate(40);
     	return view('shoppage.result',compact('data'));
     }
+
+    public function getInformation($id) {
+        $data =thongtin::where('id','>=',$id)->get();
+        return view('shoppage.result',compact('data'));
+    }
 }

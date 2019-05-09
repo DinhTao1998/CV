@@ -25,3 +25,4 @@ Route::get('homepage',[
 Route:: group(['prefix'=>'ajax'],function(){
 	Route::get('filtersearch/{key}','CVController@filterSearch');
 });
+Route::get('homepage/{id}', 'CVController@getInformation');
