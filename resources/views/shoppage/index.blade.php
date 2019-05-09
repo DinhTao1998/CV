@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row mb-5">
                 @include('shoppage.content')
-            	@include('shoppage.fillter')
+            	{{-- @include('shoppage.fillter') --}}
             </div>
         </div>
     </div>
