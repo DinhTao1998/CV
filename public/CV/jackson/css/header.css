@@ -41,11 +41,7 @@
 }
 
 
-<<<<<<< HEAD
 .menu,ul.ul-menu {
-=======
-.menu,ul.ul-menu{
->>>>>>> f4152a7ff2110f65acca802f62a016571a49ebfa
 	width: 80%;
 	height: 20px;
 	text-align: right;
@@ -61,11 +57,7 @@
 	margin:0px;
 	}
 
-<<<<<<< HEAD
 .menu,ul.ul-menu ,ul.ul-menu li ,a
-=======
-.menu,ul.ul-menu,ul.ul-menu li,a
->>>>>>> f4152a7ff2110f65acca802f62a016571a49ebfa
 {
 	display:inline-table;
 	color: #fff;
