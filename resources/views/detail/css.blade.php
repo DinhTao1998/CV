@@ -43,6 +43,7 @@
 	<link rel="stylesheet" href="CV/jackson/css/detail.css">
 	<link rel="stylesheet" href="CV/jackson/css/related.css">
 	<link rel="stylesheet" href="CV/jackson/css/footer.css">
+	<link rel="stylesheet" href="CV/jackson/css/fix.css">
 
 	<!-- Modernizr JS -->
 	<script src="CV/jackson/js/modernizr-2.6.2.min.js"></script>

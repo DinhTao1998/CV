@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .person-infor{
 	line-height: 2; 
 	padding-left: 0;
@@ -36,4 +37,15 @@
 
 body {
 	overflow-x: hidden;
+=======
+.person_information {
+    padding: 15px 0px 25px 0px;
+    color: red !important;
+}
+.icon2 a{
+	margin-left:0
+}
+body{
+	overflow-x:hidden;
+>>>>>>> f4152a7ff2110f65acca802f62a016571a49ebfa
 }

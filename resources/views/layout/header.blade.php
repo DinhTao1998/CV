@@ -1,6 +1,6 @@
 <div class="header">
     <div class="container">
-        <div class="row">
+        <div class="row-header">
             <!-- <div class="col-4">
                 <div class="logo">
                     <a href="public/CV/jackson/index.html">
@@ -9,7 +9,7 @@
                 </div>
             </div> -->
 <div class="navbar-logo">
-         <a href="index.html"><img data-0="width:155px;" data-300=" width:120px;" src="resources/images/akari.png" alt="" class="skrollable skrollable-between" style="width: 155px;"></a>
+         <a href="index.html"><img data-0="width:155px;" data-300=" width:120px;" src="CV/jackson/images/akari.png" alt="" class="skrollable skrollable-between" style="width: 155px;"></a>
        </div>
             <div class="wrap">
                 <div class="menu">

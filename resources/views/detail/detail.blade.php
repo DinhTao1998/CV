@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 <div id="colorlib-page" style="margin-top:130px; width:80%; float:left">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="top:100px"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="height: 400px; overflow-y: hidden;">
+=======
+<div id="colorlib-page" style="margin-top:130px; width:75%; float:left">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="top:100px"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="height: 400px;overflow-y:hidden">
+>>>>>>> f4152a7ff2110f65acca802f62a016571a49ebfa
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(CV/jackson/images/about.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Jackson Ford</a></h1>
@@ -36,9 +43,15 @@
 										<h4 class="job-name"><strong>UI/UX/Designer</strong></h4>
 										<p style="text-align: justify;">My name is Jackson Ford. I am 32 years old. Lorem ipsum dolor sit amet, consectetur ascing elits, sed do eiusmod tempor incidunt ut labore et dolore mafgna aliqua. Ut enim ad mini vniam quis nerci, tation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis autes irure dolor in reprehenderit in etrs voluptate velit esse cillum dolore eu fugiat nulla pariatur. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below.</p>
 
+<<<<<<< HEAD
 										<div class="person-infor">
 											<div class="title" data-animate-effect="fadeInLeft">
 			                                    <ul  style="list-style: none; padding-left: 0;">
+=======
+										<div class="person_information" style="line-height: 2; padding-left: -20px;">
+											<div class="title" style="width: 180px; float: left; font-weight: bold;">
+			                                    <ul style="list-style-type:none; padding-left:0">
+>>>>>>> f4152a7ff2110f65acca802f62a016571a49ebfa
 			                                        <li>Birthday</li>
 			                                        <li>Sex</li>
 			                                        <li>Marital Status</li>
@@ -48,7 +61,11 @@
 			                                        <li>Email</li>		                                       
 			                                    </ul>
 		                                    </div>
+<<<<<<< HEAD
 		                                    <div class="infor" data-animate-effect="fadeInLeft">
+=======
+		                                    <div class="infor" style="float: left;">
+>>>>>>> f4152a7ff2110f65acca802f62a016571a49ebfa
 			                                    <ul style="list-style: none;">
 			                                        <li class="birthday">24/01/1991</li>
 			                                        <li class="sex">Male</li>
