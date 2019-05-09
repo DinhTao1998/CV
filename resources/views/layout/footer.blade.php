@@ -1,3 +1,3 @@
 <div class="footer">
-  <h1>Footer</h1>
+  <h1>Trung tâm ngoại ngữ Akari</h1>
 </div>
