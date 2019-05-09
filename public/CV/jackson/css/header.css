@@ -23,12 +23,7 @@
 	float: none;
 }
 
-/* .logo{
-	height: 80px;
-	width: 110px;
-	float:left;
-	margin:10px 0px 0px 60px;
-} */
+
 .navbar-logo
 {
 	height: 110px;
@@ -44,9 +39,9 @@
 .menu,ul.ul-menu {
 	width: 80%;
 	height: 20px;
-	text-align: right;
-
+	text-align: center;
 	list-style: none;
+	padding: 0px;
 }
 
 .menu,ul.ul-menu,li,
@@ -70,7 +65,7 @@
 }
 .tab-content
 {
-	padding-left: 40px;
+	/* padding-left: 40px; */
 	width: 80%;
 	float:right;
 	color: #0080b7;
