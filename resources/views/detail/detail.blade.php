@@ -207,16 +207,16 @@
 					            <div class="timeline-entry-inner">
 
 					               <div class="timeline-icon color-1">
-					                  <i class="icon-book"></i>
+					                  <i class="fas fa-book"></i>
 					               </div>
 
 					               <div class="timeline-label" style="width: 50%">
-					                  <div class="edu-item" style="line-height: 0;">
-										<p><small>2010 - 2012</small></p>
-										<h4>MA Product Design</h4>
-										<p><strong>University of California</strong></p>
-										<p>United Kingdom, London</p>
-										<p><strong>GPA:8.2</strong></p>
+					                  <div class="edu-item">
+										<p style="margin-bottom: 10px;"><small>2010 - 2012</small></p>
+										<h4 style="margin-bottom: 15px;">MA Product Design</h4>
+										<p style="margin: 0;"><strong>University of California</strong></p>
+										<p style="margin: 0;">United Kingdom, London</p>
+										<p style="margin: 0;"><strong>GPA:8.2</strong></p>
 									  </div>
 					               </div>
 					            </div>
@@ -226,16 +226,16 @@
 					            <div class="timeline-entry-inner">
 
 					               <div class="timeline-icon color-2">
-					                  <i class="icon-book"></i>
+					                  <i class="fas fa-book"></i>
 					               </div>
 
 					               <div class="timeline-label" style="width: 50%">
-					                  <div class="edu-item" style="line-height: 0;">						
-										<p><small>2007 - 2010</small></p>
-										<h4>Business marketing course</h4>
-										<p><strong>Royal Academy of Business</strong></p>
-										<p>United Kingdom, London</p>		
-										<p><strong>GPA:7.9</strong></p>						
+					                  <div class="edu-item" >						
+										<p style="margin-bottom: 10px;"><small>2007 - 2010</small></p>
+										<h4 style="margin-bottom: 15px;">Business marketing course</h4>
+										<p style="margin: 0;"><strong>Royal Academy of Business</strong></p>
+										<p style="margin: 0;">United Kingdom, London</p>		
+										<p style="margin: 0;"><strong>GPA:7.9</strong></p>						
 									  </div>
 					               </div>
 					            </div>
@@ -245,16 +245,16 @@
 					            <div class="timeline-entry-inner">
 
 					               <div class="timeline-icon color-3">
-					                  <i class="icon-book"></i>
+					                  <i class="fas fa-book"></i>
 					               </div>
 
 					               <div class="timeline-label" style="width: 50%">
-					                  <div class="edu-item" style="line-height: 0;">									
-										<p><small>2002 - 2006</small></p>
-										<h4>BA (Hons) Design</h4>
-										<p><strong>University of Michigan</strong></p>
-										<p>United Kingdom, London</p>
-										<p><strong>GPA:8.8</strong></p>
+					                  <div class="edu-item" >									
+										<p style="margin-bottom: 10px;"><small>2002 - 2006</small></p>
+										<h4 style="margin-bottom: 15px;">BA (Hons) Design</h4>
+										<p style="margin: 0;"><strong>University of Michigan</strong></p>
+										<p style="margin: 0;">United Kingdom, London</p>
+										<p style="margin: 0;"><strong>GPA:8.8</strong></p>
 									  </div>				              
 					           	   </div>
 					           	</div>
@@ -277,7 +277,88 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+							<h2 class="colorlib-heading animate-box">Work Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="timeline-centered">
+
+					         <article class="timeline-entry animate-box">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label" style="width: 70%">
+					                  <div class="edu-item" >
+										<p style="margin-bottom: 10px;"><small>2010 - 2012</small></p>
+										<h4  style="margin-bottom: 15px;">MA Product Design</h4>
+										<p style="margin: 0;"><strong>University of California</strong></p>
+										<p style="margin: 0;">working with machine learning and video processing</p>
+										<p style="margin: 0;"><strong>GPA:8.2</strong></p>
+									  </div>
+					               </div>
+					            </div>
+					         </article>					
+
+					         <article class="timeline-entry animate-box">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label" style="width: 70%">
+					                  <div class="edu-item" >						
+										<p style="margin-bottom: 10px;"><small>2007 - 2010</small></p>
+										<h4 style="margin-bottom: 15px;">Business marketing course</h4>
+										<p style="margin: 0;"><strong>Royal Academy of Business</strong></p>
+										<p style="margin: 0;">working with linux, verilog and system verilog</p>		
+										<p style="margin: 0;"><strong>GPA:7.9</strong></p>						
+									  </div>
+					               </div>
+					            </div>
+					         </article>					   
+
+					         <article class="timeline-entry animate-box">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label" style="width: 70%">
+					                  <div class="edu-item">									
+										<p style="margin-bottom: 10px;"><small>2002 - 2006</small></p>
+										<h4  style="margin-bottom: 15px;">BA (Hons) Design</h4>
+										<p style="margin: 0;"><strong>University of Michigan</strong></p>
+										<p style="margin: 0;">working with linux, verilog and system verilog</p>
+										<p style="margin: 0;"><strong>GPA:8.8</strong></p>
+									  </div>				              
+					           	   </div>
+					           	</div>
+					         </article>	
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+
+							</div>	
+						</div>				
+				</div>
+			</section>
+
+			<section class="colorlib-services" data-section="projects">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What I do?</span>
+							<h2 class="colorlib-heading animate-box">My Projects</h2>
 						</div>
 					</div>
 					<div class="row">
@@ -358,85 +439,7 @@
 				</div>
 			</section>
 
-			<section class="colorlib-services" data-section="projects">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">MY PROJECTS</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-6 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
+			
 			<section data-section="hobbies">
 				<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
 					<div class="overlay"></div>
