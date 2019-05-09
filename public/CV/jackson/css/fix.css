@@ -51,6 +51,7 @@ p.border-half-block{
 body{
 	
     background-image: url(https://media.licdn.com/dms/image/C4E12AQGI5aK4tNyyXw/article-inline_image-shrink_1500_2232/0?e=1562198400&v=beta&t=0ngAT7e6YqZAJoOzxTeHt9guvTpo5qhsV3KEH2ZlZCg);
+    background-size:cover;
 
 }
 .img-unit{
@@ -312,3 +313,29 @@ code {
   background-color: #9AA3AC;
   padding: 0 8px;
 }
+
+#colorlib-main{
+  background:white;
+ /*  width:74%; */
+}
+/* #colorlib-page{
+  width:75%;
+}
+#colorlib-aside{
+  width:20%;
+}
+@media screen and(max-width:990px)
+{
+  #related{
+    clear:both;
+  }
+  #colorlib-page{
+    width:100%;
+  }
+  #colorlib-aside{
+    width:30%;
+  }
+  #colorlib-main{
+    width:70%;
+}
+} */

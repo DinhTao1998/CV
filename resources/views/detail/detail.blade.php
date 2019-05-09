@@ -1,4 +1,4 @@
-<div id="colorlib-page" style="margin-top:130px; width:80%; float:left">
+<div id="colorlib-page" style="margin-top:130px; width:75%; float:left">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="top:100px"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="height: 400px;overflow-y:hidden">
@@ -49,7 +49,7 @@
 			                                        <li>Email</li>		                                       
 			                                    </ul>
 		                                    </div>
-		                                    <div class="infor" style="width: 500px; float: left;">
+		                                    <div class="infor" style="float: left;">
 			                                    <ul style="list-style: none;">
 			                                        <li class="birthday">24/01/1991</li>
 			                                        <li class="sex">Male</li>
