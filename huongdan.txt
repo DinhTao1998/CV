@@ -13,7 +13,7 @@
 4: git add *
 5: git status
 6: git commit -m "ghi chú nếu có"
-7: git push
+7: git push --force-with-lease
 8: điên tên trên github và mật khẩu
 9: hoàn thành
  - Mỗi lần muốn code phải git pull code về trước bằng cú pháp git pull

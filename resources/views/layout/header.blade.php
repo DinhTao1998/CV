@@ -1,50 +1,49 @@
 <div class="header">
-<!-- <div class="container"> -->
-       <!--  <div class="row">
-           <div class="col-4">
-               <div class="logo">
-                   <a href="public/CV/jackson/index.html">
-                       <img alt="" src="resources/images/akari.png"/>
-                   </a>
-               </div>
-           </div> -->
-<!-- <div class="navbar-logo">
-          Akari Job
-       </div> -->
-           <!--  <div class="wrap"> -->
-                <nav class="menu-header">
+    <div class="container">
+        <div class="row-header">
+            <!-- <div class="col-4">
+                <div class="logo">
+                    <a href="public/CV/jackson/index.html">
+                        <img alt="" src="resources/images/akari.png"/>
+                    </a>
+                </div>
+            </div> -->
+<div class="navbar-logo">
+         <a href="index.html"><img data-0="width:155px;" data-300=" width:120px;" src="CV/jackson/images/akari.png" alt="" class="skrollable skrollable-between" style="width: 155px;"></a>
+       </div>
+            <div class="wrap">
+                <div class="menu">
                     <ul class="ul-menu">
-                        <li >
-                            <a href="#" class="a-menu" >
+                        <li>
+                            <a href="#">
                                 <i class="icon-home">
                                 </i>
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="a-menu">
+                            <a href="#">
                                 <i class="icon-user2">
                                 </i>
                                 CV
                             </a>
                         </li>
-                    <li>
-                        <a href="#" class="a-menu">
-                            <i class="icon-opera">
-                            </i>
-                            University
-                        </a>
-                    </li>
-                     <!-- <li>
-                        <a href="#" class="a-menu">
-                            <i class="icon-plane">
-                            </i>
-                            Company
-                        </a>
-                                         </li> -->
+                        <li>
+                            <a href="#">
+                                <i class="icon-opera">
+                                </i>
+                                University
+                            </a>
+                        </li>
+                         <li>
+                            <a href="#">
+                                <i class="icon-opera">
+                                </i>
+                                Company
+                            </a>
+                        </li>
                     </ul>
-                    <a href="#" id="pull">Menu</a>
-                </nav>
+                </div>
                 <div class="tab-content">
                     <section class="filter-job">
                         <div class="filter-head">
@@ -54,7 +53,7 @@
                                         <i class="li-briefcase">
                                         </i>
                                     </span>
-                                    <input autocomplete="off" class="form-control " placeholder="Nhập tiêu đề hồ sơ, vị trí, địa điểm làm việc..." value="">
+                                    <input autocomplete="off" class="form-control" placeholder="Nhập tiêu đề hồ sơ, vị trí, địa điểm làm việc..." value="">
                                         <!-- -->
                                         <!-- -->
                                     </input>
@@ -85,7 +84,7 @@
                         </div>
                     </section>
                 </div>
-          <!--   </div> -->
-        <!-- </div> -->
-<!--   </div> -->
-  </div>
+            </div>
+        </div>
+    </div>
+</div>
